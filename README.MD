@@ -17,7 +17,7 @@ Code has bugs, the editor was never finished.
 
 Iba a incluir un modo texto en mi Little Game Engin, para tener mapas y scroll rápido en CPU S muy lentas cono los 8088. Hice este editor para tener un programa simple y rápido, ya que no encontraba lo que quería (por ejemplo Playscii está muy bien, pero es lento y complejo)
 
-Tampoco estaba consiguiento una simulación de sprites sencilla en el modo texto de VGA, el códico es lento y muy complejo, sobre todo cuando dos sprites colisionan. Así que no usaré esto en el motor de juego, y símplemente subiré aqui el editor.
+Tampoco estaba consiguiento una simulación de sprites sencilla en el modo texto de VGA, el código es lento y muy complejo, sobre todo cuando dos sprites colisionan. Así que no usaré esto en el motor de juego, y símplemente subiré aqui el editor. Además, hay sistemas como msx y zx spectrum en los que puedes conseguir cosas casi identicas a como se veria un juego en este modo texto de vga.
 
 Éste editor usa caracteres de 8x8, 16 colores y dos colores por celda.
 
