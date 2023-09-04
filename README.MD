@@ -7,7 +7,7 @@ A good sprite simulation on VGA text modes is not possible, it is slow and very 
 
 This editor uses only 8x8 characters, 16 colours, 2 colours per tile.
 
-Code has bugs, the editor was never finished, you have to configure a text mode to ve 40x25 (320x200) 8x8 cells with no spacing between cells and no blinking (to enable all 16 colours).
+Code has bugs, the editor was never finished, and you have to configure a text mode to be 40x25 (320x200) 8x8 cells with no spacing between cells and no blinking (to enable all 16 colours).
 
 <img src="map.png">
 
@@ -19,7 +19,7 @@ Iba a incluir un modo texto en mi Little Game Engin, para tener mapas y scroll r
 
 Tampoco estaba consiguiento una simulación de sprites sencilla en el modo texto de VGA, el código es lento y muy complejo, sobre todo cuando dos sprites colisionan. Así que no usaré esto en el motor de juego, y símplemente subiré aqui el editor. Además, hay sistemas como msx y zx spectrum en los que puedes conseguir cosas casi identicas a como se veria un juego en este modo texto de vga.
 
-Éste editor usa caracteres de 8x8, 16 colores y dos colores por celda. Tienes que configurar el modo texto como 40x25, celdas de 8x8 sin espacio, y sin parpadeo para activar los 16 colores.
+Éste editor usa caracteres de 8x8, 16 colores y dos colores por celda y tienes que configurar el modo texto como 40x25, celdas de 8x8 sin espacio, y sin parpadeo para activar los 16 colores.
 
 El código tiene bugs y no está completo.
 
