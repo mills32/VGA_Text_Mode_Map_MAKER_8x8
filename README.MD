@@ -9,7 +9,7 @@ This editor uses only 8x8 characters, 16 colours, 2 colours per tile.
 
 Code has bugs, the editor was never finished.
 
-<img src="play_011.png">
+<img src="map.png">
 
 
 # Editor de mapas para modos texto
@@ -23,4 +23,4 @@ Tampoco estaba consiguiento una simulación de sprites sencilla en el modo texto
 
 El código tiene bugs y no está completo.
 
-<img src="play_011.png">
+<img src="map.png">
