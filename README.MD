@@ -1,3 +1,6 @@
+
+<img src="map.png">
+
 # Map editor for text mode
 ----------------------------------------------------------------------------
 
@@ -17,7 +20,7 @@ This program loads and saves maps using this format:
 
 This program also exports tilesets in raw 1 bit format, with characters arranged one after the other in the file (taken from left-right, top-bottom).
 
-At the end of this readme you'll find a little manual to use the program.
+Use of the program is explained on image above.
 
 # Editor de mapas para modos texto
 ----------------------------------------------------------------------------
@@ -38,7 +41,7 @@ El programa carga y guarda mapas con este formato:
 
 También puedes exportar juegos de caracteres en formato crudo de 1 bit, con los caracteres ordenados uno detras de otro en el archivo (tomados de izquierda a derecha y de arriba a abajo).
 
-Debajo encontrarás una imagen explicando como usar el programa:
+Usar el programa (ver imagen):
   - LOAD/SAVE = cargar/guardar.
   - L = Ratón click izquierdo.
   - R = Ratón click derecho.
@@ -47,4 +50,3 @@ Debajo encontrarás una imagen explicando como usar el programa:
   - BACKGROUND/FOREGROUND = color de fondo / color de caracter.
   - TYPE MODE = modo escritura.
 
-<img src="map.png">
