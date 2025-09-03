@@ -1,26 +1,33 @@
 # Map editor for text mode
 ----------------------------------------------------------------------------
 
-I was going to include a text mode in my Little Game Engine, to implement maps on slow 8088 cpus. So I made this because I wanted a very fast and easy to use map editor for text modes (Playscii is great, but slow and complex to use). 
+This is a map editor for CGA/TANDY/EGA/VGA 8x8 text modes. (16 colours, 2 colors per tile).
 
-A good sprite simulation on VGA text modes is not possible, it is slow and very complex when two sprites collide, so I won't be using this for my engine, and also there are other systems in which you can get similar looks (msx, zx spectrum).
+You can load a default CGA 8x8 font or any custom "tileset" for EEGA and VGA. To load a tileset, create a 1 bit png (2 colors), 128x128 pixels (containing 256 characters arranged from left to right, top to bottom), and save it with no compression or any other info in the header. For example using GIMP, disable everything when exporting, and set compression to 0.
 
-This editor uses only 8x8 characters, 16 colours, 2 colours per tile.
+To use on EGA/VGA, set text mode to use 8x8 cells, and disable blinking (to enable all 16 colours).
 
-Code has bugs, the editor was never finished, and you have to configure a text mode to be 40x25 (320x200) 8x8 cells with no spacing between cells and no blinking (to enable all 16 colours).
+This will compile and work on windows, to use it on linux or mac, you'll have to figure out the OS functions to open/save files and create a color picker.
+It should work on linux using a windows emulator like wine
 
-<img src="map.png">
+At the end of this readme you'll find a little manual to use the program.
 
 
 # Editor de mapas para modos texto
 ----------------------------------------------------------------------------
 
-Iba a incluir un modo texto en mi Little Game Engin, para tener mapas y scroll rápido en CPUs muy lentas cono los 8088. Hice este editor para tener un programa simple y rápido, ya que no encontraba lo que quería (por ejemplo Playscii está muy bien, pero es lento y complejo)
+Editor de mapas para el modo texto de CGA/TANDY/EGA/VGA. (16 colores, dos colores por celda).
 
-Tampoco estaba consiguiendo una simulación de sprites sencilla en el modo texto de VGA, el código es lento y muy complejo, sobre todo cuando dos sprites colisionan. Así que no usaré esto en el motor de juego, y símplemente subiré aqui el editor. Además, hay sistemas como msx y zx spectrum en los que puedes conseguir cosas casi identicas a como se veria un juego en este modo texto de vga.
+Puedes usar el juego de caracteres por defecto de CGA, pero si usas EGA o VGA, puedes cargar cualquier conjunto de caracteres. 
+Para cargarlo, crea un archivo png de 1 bit (dos colores), de 128x128 pixeles, (conteniendo 256 caracteres ordenados de izquierda a derecha y de arriba a abajo) y guardalo sin compresion ni ningun otro dato en la cabecera. Por ejemplo en GIMP desactiva todas las casillas al guardar, y pon la compresión a 0.
 
-Éste editor usa caracteres de 8x8, 16 colores y dos colores por celda y tienes que configurar el modo texto como 40x25, celdas de 8x8 sin espacio, y sin parpadeo para activar los 16 colores.
+Para usar los mapas en EGA/VGA, debes usar un modo texto con celdas de 8x8 y con parpadeo desactivado (que habilita los 16 colores).
 
-El código tiene bugs y no está completo.
+De momento el programa compila y funciona en windows, si lo quieres usar en linux o mac, tendrás que sustituir las funciones de cargado y guardado de archivos del sistema y crear un seleccionador de colores. Es posible que funcione en linux con wine o similar. 
+
+Debajo encontrarás una imagen explicando como usar el programa:
+  - LOAD/SAVE = cargar/guardar
+
+
 
 <img src="map.png">
