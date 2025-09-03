@@ -45,6 +45,6 @@ Debajo encontrarás una imagen explicando como usar el programa:
   - M = Pulsar boton medio (rueda).
   - GRID = rejilla de ayuda.
   - BACKGROUND/FOREGROUND = color de fondo / color de caracter.
-
+  - TYPE MODE = modo escritura.
 
 <img src="map.png">
