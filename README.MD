@@ -18,7 +18,7 @@ This program loads and saves maps using this format:
   - height y (2 bytes).
   - map in native CGA/TANDY/EGA/VGA video ram format: character ascii number (1 byte) + character color (1 byte) ...
 
-This program also exports tilesets in raw 1 bit format, with characters arranged one after the other in the file (taken from left-right, top-bottom).
+This program exports tilesets in raw 1 bit format, with characters arranged one after the other in the file (taken from left-right, top-bottom).
 
 Use of the program is explained on image above.
 
