@@ -8,10 +8,16 @@ You can load a default CGA 8x8 font or any custom "tileset" for EEGA and VGA. To
 To use on EGA/VGA, set text mode to use 8x8 cells, and disable blinking (to enable all 16 colours).
 
 This will compile and work on windows, to use it on linux or mac, you'll have to figure out the OS functions to open/save files and create a color picker.
-It should work on linux using a windows emulator like wine
+It should work on linux using a windows emulator like wine.
+
+This program exports map using this format:
+  - width x (2 bytes).
+  - height y (2 bytes).
+  - map in native CGA/TANDY/EGA/VGA video ram format: character ascii number (1 byte) + character color (1 byte) ...
+
+This program also exports tilesets in raw 1 bit format, with characters arranged one after the other in the file (left-right, top-bottom).
 
 At the end of this readme you'll find a little manual to use the program.
-
 
 # Editor de mapas para modos texto
 ----------------------------------------------------------------------------
@@ -24,6 +30,13 @@ Para cargarlo, crea un archivo png de 1 bit (dos colores), de 128x128 pixeles, (
 Para usar los mapas en EGA/VGA, debes usar un modo texto con celdas de 8x8 y con parpadeo desactivado (que habilita los 16 colores).
 
 De momento el programa compila y funciona en windows, si lo quieres usar en linux o mac, tendrás que sustituir las funciones de cargado y guardado de archivos del sistema y crear un seleccionador de colores. Es posible que funcione en linux con wine o similar. 
+
+El programa exporta mapas con este formato:
+  - ancho x (2 bytes).
+  - alto y (2 bytes).
+  - mapa en formato nativo de memoria de video CGA/TANDY/EGA/VGA: número de caracter ascii (1 byte) + color de caracter (1 byte) ...
+
+También puedes exportal juegos de caracteres en formato crudo de 1 bit, con los caracteres ordenados uno detras de otro en el archivo (tomados de izquierda a derecha y de arriba a abajo).
 
 Debajo encontrarás una imagen explicando como usar el programa:
   - LOAD/SAVE = cargar/guardar.
