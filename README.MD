@@ -1,8 +1,8 @@
 
-<img src="map.png">
-
 # Map editor for text mode
 ----------------------------------------------------------------------------
+
+<img src="map.png">
 
 This is a map editor for CGA/TANDY/EGA/VGA 8x8 text modes. (16 colours, 2 colors per tile).
 
